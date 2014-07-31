@@ -15,7 +15,7 @@ The Chu Moy amplifier is made of one-chip two-circuit OpAmp, using each circuit 
 
 * The output jack is now 1/4" or 6.5mm diameter jack. No electrical difference, but for compatibility with my headphones.
 
-* C1 (2.2uF between VR and OPamp input) can be removed and short-circuited if the input is guaranteed to be DC voltage free. (In my case I attach a TI PCM2704 USB DAC board to the amplifier with dedicated 2.2uF mylar caps.)
+* C1 (2.2uF between VR and OPamp input) can be removed and short-circuited if the input is guaranteed to be DC voltage free. (In my case I attach a TI PCM2704 USB DAC board to the amplifier with dedicated 2.2uF mylar caps. See [Akizuki Denshi's PCM2704 board kit](http://akizukidenshi.com/catalog/g/gK-05369/) (article in ja\_JP).
 
 * Choice of input volume: Panasonic's EVJ-Y10F03A14 (available as [Digi-Key part number P2G1103-ND](http://www.digikey.com/product-detail/en/EVJ-Y10F03A14/P2G1103-ND/243525) ) is a very good choice as a 10kohm x 2 audio curve potentiometer. Do not put too much force on each of the connection leads because they are thin and get easily bent.
 
