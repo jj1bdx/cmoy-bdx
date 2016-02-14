@@ -4,10 +4,10 @@ Information on Chu Moy headphone amplifier, in bdx style, modified by me, Kenji 
 
 ## What is Chu Moy headphone amplifier?
 
-The Chu Moy amplifier is made of one-chip two-circuit OpAmp, using each circuit for one of the stereo channels.
+The Chu Moy amplifier is made of one-chip two-circuit OpAmp, using each circuit for one of the stereo channels. Unfortunately the original article in headwize.com has been gone (in fact the domain is gone), but still some good references remain online:
 
-* See [original article in Headwize.com](http://headwize.com/?page_id=707).
-* Read more [enhancement circuits](http://headwize.com/?page_id=147).
+* [How to Build the CMoy Pocket Amplifier](http://tangentsoft.net/audio/cmoy/)
+* [Virtual Ground Circuits](http://tangentsoft.net/elec/vgrounds.html)
 
 ## Undocumented latest mods
 
@@ -23,3 +23,6 @@ The Chu Moy amplifier is made of one-chip two-circuit OpAmp, using each circuit 
 
 * The power supply has DC 18V regulated voltage.
 
+* BUF634 Pin 1 is connected to Pin 4, for using it in the wide-band mode.
+
+* Two electrolytic capacitors of 470uF 25V are added between V+/V- and BUF634 output, to stabilize the virtual ground.
